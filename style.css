@@ -83,9 +83,8 @@ body {
 }
 
 *{
-    -webkit-tap-highlight-color: transparent;
-}
-
+        -webkit-tap-highlight-color: palevioletred;
+    }
 
 .container {
   max-width: 1190px;
