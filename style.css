@@ -89,6 +89,10 @@ body {
   -webkit-tap-highlight-color: rgba(216, 112, 147, 0.356);
 }
 
+._lock {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -100,7 +104,7 @@ body {
   border-bottom: 1px solid rgb(202, 202, 202);
   background-color: white;
 }
-.header__column {
+.header__row {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -117,7 +121,7 @@ body {
 .header__list {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 24px;
 }
 .header__list-item a {
   color: #000;
@@ -147,7 +151,7 @@ body {
 /*-
 --------MENU-BURGER-----------------*/
 .main {
-  padding: 30px 0px;
+  padding: 32px 0px;
 }
 
 .__title {
@@ -156,7 +160,7 @@ body {
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .__sneaker {
@@ -167,6 +171,7 @@ body {
   transition: 0.5s;
   height: -moz-fit-content;
   height: fit-content;
+  display: block;
 }
 .__sneaker:hover {
   box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
@@ -211,13 +216,13 @@ body {
 .footer {
   background: #121723;
   color: white;
-  padding: 30px 0px;
+  padding: 32px 0px;
 }
 .footer__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 .footer__title {
   color: #FFF;
@@ -229,7 +234,7 @@ body {
 .footer__nav {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 24px;
 }
 .footer__nav-link {
   color: #FFF;
@@ -251,7 +256,7 @@ body {
   width: 100%;
   height: 1px;
   background: rgba(230, 232, 236, 0.4);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 610px) {
@@ -259,9 +264,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 }
 @media (max-width: 530px) {
